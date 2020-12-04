@@ -7,6 +7,8 @@
 
 3种情感听声音 愤 悯 隐 耳朵的意象 手势交互 
 
+方案：使用[Logitech Spotlight 无线演讲翻页笔](https://www.logitech.com.cn/zh-cn/product/spotlight-presentation-remote)做为手电筒控制鼠标，结合processing脚本[Mask #2 (hidden writing)](https://www.openprocessing.org/sketch/178037)
+
 2、信息流
 
 走动信息流加速 停止减速
