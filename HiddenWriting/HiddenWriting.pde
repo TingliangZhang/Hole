@@ -1,17 +1,20 @@
+BufferedReader reader;
+//reader = createReader("Data.txt");
 PGraphics mask;
-int WHITE = color(255);
-int BLACK = color(255);
+int WHITE = color(0);
+int BLACK = color(0);
+//String Data = loadStrings("Data.txt"); 
 
 void setup() {
-  size(300, 300);
+  size(1000, 1000);
   noStroke();
   drawDemoMask();
 }
 
 void draw() {
   background(WHITE);
-  fill(0, 100, 200);
-  ellipse(mouseX, mouseY, 100, 100);
+  fill(255);
+  ellipse(mouseX, mouseY, 300, 300);
   maskPixels();
 }
 
@@ -21,7 +24,7 @@ void drawDemoMask() {
   mask.background(0);
   mask.textSize(60);
   mask.textAlign(CENTER, CENTER);
-  mask.text("Hiding\n behind\n words", 140, 140);
+  mask.text("We have also come to this hallowed spot \n to remind America of the fierce urgency of Now.  \n This is no time to engage in the  \n luxury of cooling off or to take the  \n tranquilizing drug of gradualism.  \n ", 500, 500);
   mask.endDraw();
   mask.loadPixels();
 }
