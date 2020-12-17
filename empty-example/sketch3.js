@@ -3,9 +3,9 @@ const GRAVITY = 0.2;
 // 相邻两句话之间的空格数量
 const BLANK_LEN = 3;
 // 字体大小
-const TEXT_SIZE = 20;
+const TEXT_SIZE = 25;
 // 字体名称 (将字体文件放置在当前目录下)
-const FONT_NAME = '方正古仿简.TTF';
+const FONT_NAME = '方正细金陵简体.TTF';
 // 每个流的最多字数 (超出后最早出现的会被删除，节省内存)
 const BUFFER_LEN = 10;
 // 每个流的横向偏移量
